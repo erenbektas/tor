@@ -184,8 +184,7 @@ responses:
       [Hey, you're welcome!]({})
     transcript_on_tor_post: |
       ⚠️ Hi there! I might be wrong, but I think you just posted a transcription in reply to me.
-      The transcription should be made as a **top-level comment** on the post that you're working on transcribing.
-      For example, if the content is on r\/nicegirls, then the transcription should be commented as a reply to that submission on r\/nicegirls.
+      The transcription should be made as a **top-level comment** on the [post on r\/{sub_name}]({post_link}).
       After you've commented there, come back to me and reply with `done` and I can process it!
 
       Do you need assistance? Reply to me with `help` to summon a moderator!
@@ -331,7 +330,7 @@ formatting_issues:
     #Text
 
 
-    To fix this, add a backslash in front of the `#` like so: `#Text`. If you meant for it to render as a heading, please add a space after the `#` to avoid this warning. i.e. `# Text`."
+    To fix this, add a backslash in front of the `#` like so: `\\#Text`. If you meant for it to render as a heading, please add a space after the `#` to avoid this warning. i.e. `# Text`."
   invalid_header: "**Invalid header**: It looks like your header doesn't contain a proper type (Image, Video, or Audio), is missing italics, and/or is not at the start of your transcription. Please make sure your post contains a proper header at the start of your transcription. For example if it's an Image Transcription, it should be the following at the start of your transcription:
 
 
